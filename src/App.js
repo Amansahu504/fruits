@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+// App.js
+import Fruit from './component/Fruit'
+import Car from './component/car'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const fruits =
+    [
+       { name: "Mango",
+        color: "Yellow"},
+        {
+          name: "banana",
+        color: "Yellow"
+        }
+    ]
+
+    return (
+        <div className="App" style={{justifyContent:'center'}} >
+            <Fruit fruits={fruits} />
+            <hr></hr>
+            <Car/>
+        </div>
+    );
 }
 
 export default App;
