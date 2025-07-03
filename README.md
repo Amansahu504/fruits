@@ -1,3 +1,6 @@
+
+#I have made this to practice some functionality of Javascript and try to input myy ideas for efficient implimentations of Js. THANK U ^_^
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
